@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #EFEFEE;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+  body .container {
+    width: 100%;
+    max-width: 450px;
+    background: #FFF;
+    padding: 20px;
+    -webkit-box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.2); }
+    body .container .loginField {
+      display: block;
+      width: 100%;
+      padding: 10px 0;
+      margin-bottom: 1em;
+      border: 2px solid #CCC;
+      border-top-style: none;
+      border-left-style: none;
+      border-right-style: none;
+      -webkit-transition: all .35s ease-in-out;
+      -o-transition: all .35s ease-in-out;
+      transition: all .35s ease-in-out; }
+      body .container .loginField:focus {
+        outline: none;
+        border-bottom-color: #1E88E5; }
+    body .container .loginButton {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background: #1E88E5;
+      color: #FFF;
+      border: none;
+      -webkit-transition: all .35s ease-in-out;
+      -o-transition: all .35s ease-in-out;
+      transition: all .35s ease-in-out; }
+      body .container .loginButton:focus {
+        outline: none; }
+      body .container .loginButton:hover {
+        -webkit-box-shadow: 0px 7px 5px -5px rgba(30, 136, 229, 0.6);
+        box-shadow: 0px 7px 5px -5px rgba(30, 136, 229, 0.6);
+        cursor: pointer; }
+    body .container .register {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 100%;
+      text-align: right;
+      margin-top: .5em; }
+      body .container .register a {
+        -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        text-decoration: none;
+        color: #000;
+        padding-bottom: 2px;
+        border-bottom: 2px solid #FFF;
+        -webkit-transition: all .35s ease-in-out;
+        -o-transition: all .35s ease-in-out;
+        transition: all .35s ease-in-out; }
+        body .container .register a:hover {
+          border-bottom: 2px solid #1E88E5; }
+    body .container .tilbage {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 100%;
+      text-align: right;
+      margin-top: .5em; }
+      body .container .tilbage a {
+        -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+        text-decoration: none;
+        color: #000;
+        padding-bottom: 2px;
+        border-bottom: 2px solid #FFF;
+        -webkit-transition: all .35s ease-in-out;
+        -o-transition: all .35s ease-in-out;
+        transition: all .35s ease-in-out; }
+        body .container .tilbage a:hover {
+          border-bottom: 2px solid #1E88E5; }
+    body .container .fejlBesked {
+      background: #D32F2F;
+      color: #FFF;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: .5em; }
+    body .container .opretBesked {
+      background: #388E3C;
+      color: #FFF;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: .5em; }
+    body .container a {
+      text-decoration: none; }
+      body .container a .logudKnap {
+        background: #1E88E5;
+        color: #FFF;
+        width: 100%;
+        max-width: 100px;
+        text-align: center;
+        padding: 10px;
+        margin: 10px auto 20px auto; }
